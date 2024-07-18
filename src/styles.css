@@ -1,0 +1,120 @@
+body {
+  background-color: #f0f4f8;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.5rem;
+  color: #4a90e2;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin: 1rem 0;
+}
+
+h4 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-wrapper {
+  text-align: center;
+}
+
+.locator {
+  font-size: 2rem;
+  color: #4a90e2;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#input-city {
+  width: 60%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#submit-city {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#submit-city:hover {
+  background-color: #357ab7;
+}
+
+.circle-wrapper {
+  margin: 20px 0;
+}
+
+.icon-today {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.celsius-fahrenheit a {
+  text-decoration: none;
+  color: #4a90e2;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.celsius-fahrenheit a:hover {
+  color: #357ab7;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.forecastDay {
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
